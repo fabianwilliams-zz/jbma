@@ -1,4 +1,4 @@
-﻿<Properties StartupItem="Jailbreak/Jailbreak.iOS/Jailbreak.iOS.csproj">
+﻿<Properties StartupItem="Jailbreak/Jailbreak.Droid/Jailbreak.Droid.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone4s.8.4" />
   <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
