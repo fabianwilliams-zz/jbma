@@ -1,6 +1,32 @@
-﻿<Properties StartupItem="Jailbreak/Jailbreak.Droid/Jailbreak.Droid.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone4s.8.4" />
-  <MonoDevelop.Ide.Workbench />
+﻿<Properties StartupItem="Jailbreak/Jailbreak.iOS/Jailbreak.iOS.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone6.8.4" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Jailbreak/Jailbreak/View/Auth0Login.cs">
+    <Files>
+      <File FileName="Jailbreak/Jailbreak/View/ConnectPage.cs" Line="41" Column="64" />
+      <File FileName="Jailbreak/Jailbreak/View/BeerListView.cs" Line="65" Column="1" />
+      <File FileName="Jailbreak/Jailbreak/ViewModel/Auth0LoginService.cs" Line="25" Column="202" />
+      <File FileName="Jailbreak/Jailbreak/Model/Auth0User.cs" Line="1" Column="1" />
+      <File FileName="Jailbreak/Jailbreak/ViewModel/JailBreakGoogleEventsService.cs" Line="1" Column="1" />
+      <File FileName="Jailbreak/Jailbreak.iOS/AppDelegate.cs" Line="32" Column="57" />
+      <File FileName="Jailbreak/Jailbreak/App.cs" Line="6" Column="21" />
+      <File FileName="Jailbreak/Jailbreak/View/Auth0Login.cs" Line="13" Column="18" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Jailbreak" expanded="True">
+            <Node name="Jailbreak" expanded="True">
+              <Node name="Model" expanded="True" />
+              <Node name="ViewModel" expanded="True" />
+            </Node>
+            <Node name="Jailbreak.iOS" expanded="True">
+              <Node name="ComponentReferenceFolder" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

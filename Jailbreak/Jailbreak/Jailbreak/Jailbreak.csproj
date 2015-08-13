@@ -55,6 +55,9 @@
     <Compile Include="View\MasterPage.cs" />
     <Compile Include="View\MeetOurFolks.cs" />
     <Compile Include="View\WhatsOnTapPage.cs" />
+    <Compile Include="ViewModel\Auth0LoginService.cs" />
+    <Compile Include="Model\Auth0User.cs" />
+    <Compile Include="View\Auth0Login.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
