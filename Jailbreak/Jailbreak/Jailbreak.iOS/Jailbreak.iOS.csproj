@@ -97,6 +97,7 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
+    <None Include="app.config" />
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -162,5 +163,44 @@
       <Version>0.5.0</Version>
       <Visible>False</Visible>
     </XamarinComponentReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Beer-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\BeerGlass-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\brew6_bw_cropped.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Calendar-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Contacts-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\infinite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\infinite_xhalf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\JailBreakBWLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\maplense.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Meeting-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Overlay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\pin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Truck-30.png" />
   </ItemGroup>
 </Project>
