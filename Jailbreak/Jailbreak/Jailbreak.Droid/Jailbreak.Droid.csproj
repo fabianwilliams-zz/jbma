@@ -21,7 +21,7 @@
     <JavaMaximumHeapSize>
     </JavaMaximumHeapSize>
     <JavaOptions />
-    <TargetFrameworkVersion>v5.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v5.1</TargetFrameworkVersion>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
   </PropertyGroup>
@@ -91,24 +91,24 @@
     <None Include="Assets\AboutAssets.txt" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\icon.png" />
+    <AndroidAsset Include="Resources\drawable\icon.png" />
     <AndroidResource Include="Resources\drawable-hdpi\icon.png" />
     <AndroidResource Include="Resources\drawable-xhdpi\icon.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\icon.png" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Properties\AndroidManifest.xml" />
-    <AndroidResource Include="Resources\drawable\Beer-30.png" />
-    <AndroidResource Include="Resources\drawable\BeerGlass-30.png" />
-    <AndroidResource Include="Resources\drawable\brew6_bw_cropped.jpg" />
-    <AndroidResource Include="Resources\drawable\Calendar-30.png" />
-    <AndroidResource Include="Resources\drawable\Contacts-30.png" />
-    <AndroidResource Include="Resources\drawable\JailBreakBWLogo.png" />
-    <AndroidResource Include="Resources\drawable\maplense.png" />
-    <AndroidResource Include="Resources\drawable\Meeting-30.png" />
-    <AndroidResource Include="Resources\drawable\Overlay.png" />
-    <AndroidResource Include="Resources\drawable\pin.png" />
-    <AndroidResource Include="Resources\drawable\Truck-30.png" />
+    <AndroidAsset Include="Resources\drawable\Beer-30.png" />
+    <AndroidAsset Include="Resources\drawable\BeerGlass-30.png" />
+    <AndroidAsset Include="Resources\drawable\brew6_bw_cropped.jpg" />
+    <AndroidAsset Include="Resources\drawable\Calendar-30.png" />
+    <AndroidAsset Include="Resources\drawable\Contacts-30.png" />
+    <AndroidAsset Include="Resources\drawable\JailBreakBWLogo.png" />
+    <AndroidAsset Include="Resources\drawable\maplense.png" />
+    <AndroidAsset Include="Resources\drawable\Meeting-30.png" />
+    <AndroidAsset Include="Resources\drawable\Overlay.png" />
+    <AndroidAsset Include="Resources\drawable\pin.png" />
+    <AndroidAsset Include="Resources\drawable\Truck-30.png" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Jailbreak\Jailbreak.csproj">
