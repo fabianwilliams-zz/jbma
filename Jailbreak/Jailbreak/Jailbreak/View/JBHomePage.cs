@@ -7,7 +7,7 @@ using Xamarin.Forms;
 
 namespace Jailbreak.View
 {
-    public class JBHomePage : ContentPage
+    public class JBHomePage : BaseContentPage
     {
         public JBHomePage()
         {
@@ -58,12 +58,13 @@ namespace Jailbreak.View
             tapGestureRecognizer.Tapped += OnTapGestureRecognizerTapped;
             pin.GestureRecognizers.Add(tapGestureRecognizer);
 
-            var description = new Frame()
+         MessagingCenter.Subscribe<App>(this, "Authenticated", (sender) => {
+                var description = new Frame()
             {
                 Padding = new Thickness(10, 5),
                 HasShadow = false,
                 BackgroundColor = Color.Transparent,
-                Content = new Label()
+                    Content = new Label()
                 {
                     FontSize = 17,
                     //TextColor = Color.FromHex ("#ddd"),
@@ -71,6 +72,7 @@ namespace Jailbreak.View
                     Text = "Jailbreak is a freedom expression. Beginning in 2013 and becoming fully operational in 2014, our artfully crafted beer is meant to be an escape from whatever drama is present in your life. We are made up of professionals from various industries all brought together by the common desire to make something different and do something with our lives that has more purpose."
                 }
             };
+        });
 
             var jbBreweryLarge = new Image()
             {

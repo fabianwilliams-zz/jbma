@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-
 using Foundation;
 using UIKit;
+using Xamarin.Forms;
 
 namespace Jailbreak.iOS
 {
@@ -27,9 +27,12 @@ namespace Jailbreak.iOS
         {
 
             global::Xamarin.Forms.Forms.Init();
-            LoadApplication(new App());
+            //LoadApplication(new App());
+            LoadApplication(App.Instance);
 
             return base.FinishedLaunching(app, options);
+
+
         }
     }
 }

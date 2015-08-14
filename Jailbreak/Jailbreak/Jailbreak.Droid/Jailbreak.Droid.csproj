@@ -21,7 +21,7 @@
     <JavaMaximumHeapSize>
     </JavaMaximumHeapSize>
     <JavaOptions />
-    <TargetFrameworkVersion>v5.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v5.1</TargetFrameworkVersion>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
   </PropertyGroup>
@@ -101,10 +101,10 @@
     <AndroidResource Include="Resources\drawable\Calendar-30.png" />
     <AndroidResource Include="Resources\drawable\Contacts-30.png" />
     <AndroidResource Include="Resources\drawable\icon.png" />
-    <AndroidResource Include="Resources\drawable\maplense.png" />
+    <AndroidAsset Include="Resources\drawable\maplense.png" />
     <AndroidResource Include="Resources\drawable\Meeting-30.png" />
     <AndroidResource Include="Resources\drawable\Overlay.png" />
-    <AndroidResource Include="Resources\drawable\pin.png" />
+    <AndroidAsset Include="Resources\drawable\pin.png" />
     <AndroidResource Include="Resources\drawable\Truck-30.png" />
   </ItemGroup>
   <ItemGroup>
